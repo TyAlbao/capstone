@@ -10,4 +10,4 @@ wheels/
 .venv
 
 # Notebooks
-.ipynb
+notebooks/
