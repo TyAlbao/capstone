@@ -1,0 +1,3 @@
+[submodule "external/statcast-contact-point"]
+	path = external/statcast-contact-point
+	url = https://github.com/jmaschino56/statcast-contact-point.git
