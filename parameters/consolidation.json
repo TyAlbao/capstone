@@ -1,0 +1,107 @@
+{
+  "migration": {
+    "passed": true,
+    "historical_metric_tables": {
+      "author_reproduction_metrics": 360,
+      "category_metrics": 3960,
+      "coverage": 1176,
+      "league_metrics": 1176,
+      "overall_metrics": 1320,
+      "paired_comparisons": 2478,
+      "pitch_group_contrasts": 4950,
+      "reference_author_reproduction": 48,
+      "reference_calibrated": 96,
+      "reference_prior_season": 12,
+      "reference_raw": 24,
+      "tail_metrics": 5280,
+      "whiff_boundary_sensitivity": 108,
+      "whiff_confusion_matrices": 432,
+      "whiff_overall_metrics": 16,
+      "whiff_pitch_group": 192,
+      "whiff_player_metrics": 13125,
+      "whiff_player_summary": 18,
+      "whiff_season": 48,
+      "whiff_selection_bias_metrics": 288,
+      "whiff_stratified_metrics": 1680
+    },
+    "original_prediction_rows": 974886,
+    "original_player_rows": 850440,
+    "original_whiff_rows": 63092,
+    "classifications_exact": true,
+    "populations_exact": true,
+    "numeric_tolerance": {
+      "rtol": 1e-10,
+      "atol": 1e-10
+    },
+    "scratch_bytes_and_mtime_unchanged": true,
+    "source_inputs_match_full_backup": true
+  },
+  "calibration": {
+    "development_season": 2025,
+    "refitted_maps_exact": true,
+    "refitted_references_equal": true,
+    "holdout_targets_used": false
+  },
+  "matching": {
+    "passed": true,
+    "source_responses": 4451,
+    "selections": 165620,
+    "seasons": [
+      {
+        "season": 2024,
+        "labels": 20561,
+        "valid": 20549,
+        "statuses": {
+          "exact": 20549,
+          "unmatched": 7,
+          "ambiguous": 5
+        }
+      },
+      {
+        "season": 2025,
+        "labels": 21326,
+        "valid": 21313,
+        "statuses": {
+          "exact": 21313,
+          "ambiguous": 12,
+          "unmatched": 1
+        }
+      },
+      {
+        "season": 2026,
+        "labels": 21238,
+        "valid": 21230,
+        "statuses": {
+          "exact": 21230,
+          "ambiguous": 8
+        }
+      }
+    ]
+  },
+  "tests": {
+    "tests": 70,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "after_cleanup": true
+  },
+  "full_backup": "C:\\Users\\tyism\\Projects\\capstone-archive\\before-consolidation-20261106T075317Z.zip",
+  "full_backup_manifest": "C:\\Users\\tyism\\Projects\\capstone-archive\\before-consolidation-20261106T075317Z.manifest.json",
+  "superseded_archive": "C:\\Users\\tyism\\Projects\\capstone-archive\\superseded-experiments-20261106T082817Z.zip",
+  "superseded_manifest": "C:\\Users\\tyism\\Projects\\capstone-archive\\superseded-experiments-20261106T082817Z.manifest.json",
+  "superseded_archive_sha256": "656dbd05472a945ae5e9f79e5e0569ef1c95937df50781899f4a4f0ee91f9d6c",
+  "archive_verified": true,
+  "cleanup_completed": true,
+  "branch": "experiment/x-sweetspot-baselines",
+  "notebook_code_cells_executed": 4,
+  "removed_files": 1178,
+  "removed_bytes": 975829986,
+  "post_cleanup_full_run_passed": true,
+  "post_cleanup_verification_passed": true,
+  "working_bytes_before": 1575958869,
+  "working_bytes_after": 1077831333,
+  "final_scratch_bytes_and_mtime_unchanged": true,
+  "final_submodule_and_branch_refs_unchanged": true,
+  "working_files_after": 9911
+}

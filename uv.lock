@@ -61,6 +61,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pyarrow" },
     { name = "pybaseball" },
+    { name = "requests" },
     { name = "scikit-learn" },
     { name = "seaborn" },
 ]
@@ -73,6 +74,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.6" },
     { name = "pyarrow", specifier = ">=26.0.0" },
     { name = "pybaseball", specifier = ">=2.2.7" },
+    { name = "requests", specifier = ">=2.34.2" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]

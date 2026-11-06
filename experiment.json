@@ -1,0 +1,61 @@
+{
+  "development_season": 2025,
+  "experiments": [
+    "xyz",
+    "whiffs",
+    "references"
+  ],
+  "methods": {
+    "x": [
+      "author",
+      "global",
+      "batter",
+      "ev50",
+      "ev50_mean",
+      "existing"
+    ],
+    "y": [
+      "author",
+      "global",
+      "batter",
+      "ev50",
+      "tango_time",
+      "existing",
+      "author_pooled"
+    ],
+    "z": [
+      "author"
+    ]
+  },
+  "whiff_methods": {
+    "x": [
+      "x_full_geometry",
+      "icpt_x_body_proxy",
+      "along_bat_proxy",
+      "dev_mean",
+      "dev_median",
+      "dev_majority"
+    ],
+    "y": [
+      "icpt_y_over_ballspeed",
+      "dev_mean",
+      "dev_median",
+      "dev_majority"
+    ],
+    "z": [
+      "z_miss_decomp",
+      "z_above_plane_raw",
+      "z_from_miss_raw",
+      "dev_mean",
+      "dev_median",
+      "dev_majority"
+    ]
+  },
+  "reference_protocols": [
+    "same_season_raw",
+    "prior_season_raw",
+    "frozen_2025_references",
+    "same_season_descriptive",
+    "author_reproduction"
+  ]
+}

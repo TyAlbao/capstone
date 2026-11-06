@@ -1,0 +1,38 @@
+{
+  "fit_season": 2025,
+  "axes": {
+    "x": {
+      "n": 21313,
+      "mean": 9.902106048341889,
+      "median": 10.407608001409972,
+      "majority": "Flail",
+      "category_counts": {
+        "Tiedup": 1822,
+        "Centered": 4065,
+        "Flail": 15426
+      }
+    },
+    "y": {
+      "n": 21313,
+      "mean": 7.343384580433298,
+      "median": 11.175012604774944,
+      "majority": "Early",
+      "category_counts": {
+        "Late": 4399,
+        "OnTime": 4555,
+        "Early": 12359
+      }
+    },
+    "z": {
+      "n": 21313,
+      "mean": -2.2258436223060016,
+      "median": -2.375825385270209,
+      "majority": "Over",
+      "category_counts": {
+        "Over": 11470,
+        "Linedup": 4839,
+        "Under": 5004
+      }
+    }
+  }
+}

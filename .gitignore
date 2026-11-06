@@ -9,8 +9,12 @@ wheels/
 # Virtual environments
 .venv
 
-# Notebooks
-notebooks/
+# Personal and superseded notebook artifacts
+notebooks/*
+# !notebooks/analysis.ipynb
 
 # Data
 data/
+
+# Reproducible outputs (calibration artifacts and regression fixtures are retained)
+results/

@@ -1,0 +1,17 @@
+{
+  "development_season": 2025,
+  "artifacts": {
+    "author_native_maps.json": "f7d3c5ada8f30928a0798ffc08da0f69fb0dd0d91d7ebf1eb7daab75607788a0",
+    "calibration_diagnostics.csv": "b348134986d0932392513b6e9e4f3e5aac981d7967ef7fbd6be0b341e4c568d6",
+    "calibration_maps.json": "865a39e89b615f721ec2c5a80dc25efbe92036db93572b31118ed45979774169",
+    "development_histograms.parquet": "094831d44d649ce80640d7385f2afb5d364392cfb36f95094af975d7ba77d35f",
+    "development_nulls.json": "1110287ada3c1663720cb84304e221ee09d7c74e09771141a99c0b261dd8f2ed",
+    "references.parquet": "73673659b980a35478b2108bec8d3682b796a9aa391e515c4a3fe49f650e1e24",
+    "reference_calibration.json": "e551eb06fdb31a40161ef04a4cfaa1218502db7581440f2aa6d747a9a0f5bca8",
+    "whiff_baselines.json": "843970ed2cf4921adbddc7919dfdc4380cb7cf2fdd601634bcca092b845c6377"
+  },
+  "source_cache": "data/savant_calibration/manifest.json",
+  "submodule_commit": "914aedd57d07f360a7e7d75f4f91125664898d76",
+  "source": "Original experiment artifacts; references.parquet refitted and verified against original references_2025.csv",
+  "histogram_rebuild": "capstone.data.rebuild_development_histograms() verifies all 826 raw player responses and their season"
+}
